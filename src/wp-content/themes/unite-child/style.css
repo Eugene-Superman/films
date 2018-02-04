@@ -1,0 +1,43 @@
+/**
+ * Theme Name: Unite Child
+ * Template: unite
+ */
+@import url('../unite/style.css');
+
+.type-films {
+    width: 49%!important;
+    float: none!important;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.post-meta li {
+    list-style-type: none;
+}
+
+.post-meta-key::before,
+.tax-country::before,
+.tax-genre::before {
+    font-family: 'Glyphicons Halflings';
+    padding-right: 10px;
+    color: blueviolet;
+    font-size: 15px;
+
+}
+
+.post-meta-key::before {
+    content:"\e085";
+    position: absolute;
+    left: 30px;
+
+}
+
+.tax-country::before {
+    content:"\e062";
+}
+
+.tax-genre::before {
+    content:"\e086";
+}
+
+
